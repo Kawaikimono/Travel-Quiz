@@ -7,6 +7,11 @@ var rightWrong = document.querySelector("#right-wrong");
 var names = document.querySelector("#names");
 var highscores = document.querySelector("#highscores");
 
+rightWrong.style.borderTop="thin dotted #E1F2FE"
+rightWrong.style.color= "#CAFF8A"
+
+
+
 var questions = [
   "Hot springs are located all over the world and most promise healing benefits. Which of these hot springs in Iceland actually have a Psoriasis Research Facility?",
   "Guinness brewery in Dublin Ireland is one of the most well known beer brands. But did you know they do not own the land the factory is built on? How long was the lease Arthur Guiness signed?",
