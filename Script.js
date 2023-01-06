@@ -37,6 +37,15 @@ var correct = [
   "United Kingdom",
 ];
 
+var funFacts = [
+  ". Check it out here: https://annaeverywhere.com/reykjavik-blue-lagoon/",
+  ". Learn more here: https://www.thevintagenews.com/2017/01/07/arthur-guinness-signed-a-9000-year-lease-for-an-abandoned-brewery-in-dublin-guinness-is-still-brewed-at-st-james-gate/?chrome=1",
+  ". More about where sparkling water is available on street taps here: https://slate.com/human-interest/2013/09/sparking-water-fountains-italian-and-french-cities-have-them-can-we.html",
+  ". Learn more about the festival here: https://www.theguardian.com/world/2016/oct/29/day-of-the-dead-parade-james-bond-mexico-city",
+  ". Learn more about Australia's dangerous animals here: https://theconversation.com/curious-kids-why-do-so-many-dangerous-animals-live-in-australia-139707#:~:text=Australia%20has%20the%20most%20animals,and%20all%20live%20in%20Australia.",
+  ". Learn why there are no snakes in Ireland or New Zealand here: https://www.snakesforpets.com/where-are-there-no-snakes-in-the-world/#:~:text=Ireland%2C%20Iceland%2C%20and%20New%20Zealand,have%20a%20huge%20natural%20range."
+]
+
 var timeLeft = 160;
 var clockInt;
 function startClock() {
@@ -60,9 +69,9 @@ function askingQuestions(questionIndex) {
     list.textContent = answers[questionIndex][i];
     list.addEventListener("click", function () {
       if (event.target.textContent === correct[questionIndex]) {
-        rightWrong.textContent = "Correct";
+        rightWrong.textContent = "Correct" + funFacts[questionIndex];
       } else {
-        rightWrong.textContent = "Wrong. The correct answer is "+ correct[questionIndex];
+        rightWrong.textContent = "Wrong. The correct answer is "+ correct[questionIndex] + funFacts[questionIndex];
         timeLeft -= 5;
         timer.textContent = "Time left: " + timeLeft;
       }
