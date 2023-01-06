@@ -60,9 +60,9 @@ function askingQuestions(questionIndex) {
     list.textContent = answers[questionIndex][i];
     list.addEventListener("click", function () {
       if (event.target.textContent === correct[questionIndex]) {
-        rightWrong.textContent = "correct";
+        rightWrong.textContent = "Correct";
       } else {
-        rightWrong.textContent = "wrong";
+        rightWrong.textContent = "Wrong. The correct answer is "+ correct[questionIndex];
         timeLeft -= 5;
         timer.textContent = "Time left: " + timeLeft;
       }
