@@ -1,0 +1,47 @@
+*{
+    padding: 0%;
+    margin:0px;
+    margin-bottom: 20px;
+    background-color: rgb(215, 130, 186);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+text-align: center;
+}
+
+#start-button{
+    background-color: rgb(202, 255, 138);
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#opener{
+    background-color: rgb(152, 210, 235);
+    
+}
+
+#clock,#answers{
+    color: black;
+    font-style: bold;
+}
+
+#a1,#a2,#a3{
+    font-size: 15pt;
+}
+
+#right-wrong{
+   font-weight: 200;
+/* green */
+/* rgb 202, 255, 138 */
+
+/* blue */
+/* 152, 210, 235 */
+
+/* light blue */
+/* 225, 242, 254 */
+
+/* purple */
+/* rgb 215, 130, 186 */
