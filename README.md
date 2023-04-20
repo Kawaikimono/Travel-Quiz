@@ -1,4 +1,4 @@
-# Lesson-4-Challenge-Quiz
+# Travel-Quiz
 
 ## Description
 ```
