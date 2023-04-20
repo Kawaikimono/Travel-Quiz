@@ -14,7 +14,7 @@ This project was to generate code on an existing website to make a random passwo
 
 ## Depolyed Viewing
 
-Asignment link: https://kawaikimono.github.io/Lesson-4-Challenge-Quiz/
+Asignment link: https://kawaikimono.github.io/Travel-Quiz/
 
 [Website preview](./Preview.png)
 
